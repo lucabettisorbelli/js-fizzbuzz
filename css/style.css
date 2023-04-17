@@ -3,6 +3,19 @@ body {
     text-align: center;
 }
 
+.fizz {
+    color: red;
+}
+.buzz {
+    color: blue;
+}
+.fizzbuzz {
+    color: purple;
+}
+.number {
+    color: black;
+}
+
 #container {
     display: flex;
     flex-wrap: wrap;
@@ -11,12 +24,46 @@ body {
     margin: 0 auto;
 }
 
-.box {
+.box1 {
     width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: green;
+    background-color: blue;
+    color: red;
+    margin: 10px;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    color: white;
+    margin: 10px;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    color: red;
+    margin: 10px;
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: green;
     margin: 10px;
 }
