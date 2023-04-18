@@ -23,8 +23,16 @@ for (let i = 1; i <= 100; i++) {
     }
     
     console.log(valore);
+
+    // crea un nuovo elemento e lo assegna a "elemento"
     let elemento = document.createElement("div");
+
+    // imposta il contenuto di  testo di "div" a "valore"
     elemento.textContent = valore;
+
+    // aggiunge classe css 
     elemento.classList.add(className);
+    
+    // aggiunge l'elemento "div" a "container"
     container.append(elemento);
 }
